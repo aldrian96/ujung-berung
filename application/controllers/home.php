@@ -36,8 +36,7 @@ class Home extends CI_Controller
             // lemparkan ke halaman index user
             redirect(site_url('dashboard'));
         } else {
-            $data['login_info'] = "Username atau password salah. Silahkan
-masukkan kombinasi yang benar!";
+            $data['login_info'] = "Username atau password salah. Silahkan masukkan kombinasi yang benar!";
             $this->load->view('login_form', $data);
         }
     }
