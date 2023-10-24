@@ -12,8 +12,7 @@
 <body>
     <div class="container">
         <div id="form-middle">
-            <form method="POST" class="form-signin" action="<?php echo
-                                                            site_url('login'); ?>">
+            <form method="POST" class="form-signin" action="<?php echo site_url('login'); ?>">
                 <center>
                     <h2 class="form-signin-heading">PT. Ujung Berung</h2>
                     <?php
